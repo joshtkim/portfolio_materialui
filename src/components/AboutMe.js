@@ -3,8 +3,6 @@ import { Typography } from '@material-ui/core';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
 
 import Picture from '../assets/images/sunset-3325080_1920.jpg';
 import data from '../info/data';
@@ -23,17 +21,9 @@ const AboutMe = () => {
 
       <List>
         <ListItem>
-          <ListItemAvatar>
-            <Avatar>
-            </Avatar>
-          </ListItemAvatar>
           <ListItemText secondary={data.name}/>
         </ListItem>
         <ListItem>
-          <ListItemAvatar>
-            <Avatar>
-            </Avatar>
-          </ListItemAvatar>
           <ListItemText primary="Work"/>
         </ListItem>
       </List>
