@@ -1,0 +1,28 @@
+/* about me */
+
+.about-me{
+  background-color: white;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+}
+
+.about-me-name{
+  line-height: 18px;
+  padding: 20px;
+}
+
+.about-me-name .name{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.about-me-name .title{
+  font-size: 13px;
+  color: #777;
+}
+
+.about-me-pic img{
+  width: 100%;
+}
