@@ -10,12 +10,12 @@ export default {
   socials: {
     linkedin: {
       link: 'https://github.com/joshtkim',
-      text: 'My LinkedIn',
+      text: 'My LinkedIn:',
       icon: <LinkedInIcon />,
     },
     github: {
       link: 'https://www.linkedin.com/in/joshua-kim29/',
-      text: 'My Github',
+      text: 'My Github:',
       icon: <GithubIcon />,
     },
   },

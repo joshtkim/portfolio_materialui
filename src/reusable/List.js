@@ -1,20 +1,18 @@
 import React from 'react'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
 
-const List = () => {
+const CustomList = ({ title, primary, icon }) => {
   return (
     <List>
       <ListItem>
-        <ListItemText />
-      </ListItem>
-      <ListItem>
-        <ListItemText />
+        <ListItemText primary={title} /><ListItemText primary={primary} />
       </ListItem>
     </List>
   )
 }
 
-export default List
+export default CustomList
