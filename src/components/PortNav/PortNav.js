@@ -1,14 +1,15 @@
 import React from 'react'
 
-	import { Navbar,Nav } from 'react-bootstrap'
+import { Navbar,Nav } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function NewNav () {
+function PortNav () {
 
 	return(
 		<div>
 			<div className="row">
 				<div className="col-md-12">
-					<Navbar bg="dark" variant="dark" expand="lg" fixed="sticky">
+					<Navbar bg="dark" variant="dark" expand="lg" fixed="bottom">
 						<Navbar.Brand href="#home">React Bootstrap Navbar</Navbar.Brand>
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Collapse id="basic-navbar-nav">
@@ -26,4 +27,4 @@ function NewNav () {
 	)  
 }
 
-export default NewNav;
+export default PortNav;

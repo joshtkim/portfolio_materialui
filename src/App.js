@@ -8,14 +8,13 @@ import Projects from './components/Project/Projects';
 import Skills from './components/Skills/Skills';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
-import NavBar from './components/PortfolioNavBar/PortfolioNavBar';
-import NewNav from './components/PortfolioNavBar/NewNav'
+import PortNav from './components/PortNav/PortNav'
 
 
 function App() {
   return (
     <div className="App">
-      <NewNav />
+      <PortNav />
       <Container>
         <Grid container>
           <Grid xs={12} className="home">
