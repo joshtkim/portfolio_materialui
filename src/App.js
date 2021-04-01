@@ -3,24 +3,32 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Container, Grid } from '@material-ui/core';
 import './App.css'
 
-import AboutMe from './components/AboutMe';
-import Header from './components/Header';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
+import Home from './components/Home/Home';
+import Projects from './components/Project/Projects';
+import Skills from './components/Skills/Skills';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
+import NavBar from './components/PortfolioNavBar/PortfolioNavBar';
+import NewNav from './components/PortfolioNavBar/NewNav'
 
 
 function App() {
   return (
     <div className="App">
+      <NewNav />
       <Container>
         <Grid container>
-          <Grid xs={12} >
-            <AboutMe />
+          <Grid xs={12} className="home">
+            <Home />
           </Grid>
-          <Grid xs={12}>
-            <Header />
-            <Footer />
+          <Grid xs={12} className="projects">
+            <Projects />
+          </Grid>
+          <Grid xs={12} className="skills">
+            <Skills />
+          </Grid>
+          <Grid xs={12} className="contact">
+            <Contact />
           </Grid>
         </Grid>
       </Container>

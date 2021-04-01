@@ -1,0 +1,28 @@
+/* home */
+
+.home{
+  background-color: white;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+}
+
+.home-name{
+  line-height: 18px;
+  padding: 20px;
+}
+
+/* .home-name .name{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.home-name .title{
+  font-size: 13px;
+  color: #777;
+} */
+
+.home-pic img{
+  width: 50%;
+}
