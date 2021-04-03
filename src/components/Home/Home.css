@@ -1,6 +1,6 @@
 /* home */
 
-.home{
+/* .home{
   background-color: white;
   border-radius: 6px;
   width: 100%;
@@ -10,7 +10,7 @@
 .home-name{
   line-height: 18px;
   padding: 20px;
-}
+} */
 
 /* .home-name .name{
   text-transform: uppercase;
@@ -24,5 +24,5 @@
 } */
 
 .home-pic img{
-  width: 50%;
+  width: 30%;
 }

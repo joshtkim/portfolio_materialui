@@ -1,17 +1,11 @@
 import React from 'react'
+import { Typography } from '@material-ui/core';
 
 const Contact = () => {
   return (
     <div className='contact' id="contact">
-      Hi from Contact
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
-      <h1>SPAM</h1>
+      <Typography variant="h4">Contact</Typography>
+      <Typography variant="h4">email: jykim92@gmail.com</Typography>
     </div>
   )
 }

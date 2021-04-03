@@ -11,27 +11,25 @@ import PortNav from './components/PortNav/PortNav'
 
 
 function App() {
-  return (
-    <div className="App">
-      <PortNav />
-      <Container>
-        <Grid container>
-          <Grid xs={12} className="home">
-            <Home />
-          </Grid>
-          <Grid xs={12} className="projects">
-            <Projects />
-          </Grid>
-          <Grid xs={12} className="skills">
-            <Skills />
-          </Grid>
-          <Grid xs={12} className="contact">
-            <Contact />
-          </Grid>
-        </Grid>
-      </Container>
-    </div>
-  );
+	return (
+		<div className="App">
+			<PortNav/>
+				<Grid container direction='column' alignItems='center' wrap="nowrap">
+					<Grid item xs={12}>
+						<Home />
+					</Grid>
+					<Grid item xs={12}>
+						<Projects />
+					</Grid>
+					<Grid item xs={12}>
+						<Skills />
+					</Grid>
+					<Grid item xs={12}>
+						<Contact />
+					</Grid>
+				</Grid>
+		</div>
+	);
 }
 
 export default App;
