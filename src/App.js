@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     height: '100%',
 		width: '100%',
-		backgroundColor: 'black',
+		backgroundColor: 'lightgrey',
   },
 
 }));
@@ -28,16 +28,16 @@ function App() {
 			<PortNav/>
 			<Container>
 				<Grid container direction='column' alignItems='center' wrap="nowrap">
-					<Grid item>
+					<Grid item xs={12}>
 						<Home />
 					</Grid>
-					<Grid item className={classes.root}>
+					<Grid item xs={12} className={classes.root}>
 						<Projects />
 					</Grid>
-					<Grid item>
+					<Grid item xs={12}>
 						<AboutMe />
 					</Grid>
-					<Grid item className={classes.root}>
+					<Grid item xs={12} className={classes.root}>
 						<Contact />
 					</Grid>
 				</Grid>

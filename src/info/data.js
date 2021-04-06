@@ -4,7 +4,7 @@ import GithubIcon from '@material-ui/icons/GitHub';
 
 const data = {
 	name: "Joshua Kim",
-	title: "Software Engineer",
+	title: "Full Stack Software Engineer",
 	email: "jykim92@gmail.com",
 
 	socials: {
