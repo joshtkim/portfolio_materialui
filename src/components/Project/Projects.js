@@ -13,7 +13,7 @@ const Projects = () => {
 			<br></br>
 			<h1>Projects</h1>
 			{project.map((x) => (
-				<div className={x.name.toLowerCase().replace(/\s/g, '')}>
+				<div className={x.name.toLowerCase().replace(/\s/g, '')} key={x.name}>
 					<h1>{x.name}</h1>
 					<p>{x.text}</p>
 					<ReactPlayer className="video"
