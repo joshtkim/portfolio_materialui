@@ -1,11 +1,12 @@
 /* home */
 
-/* .home{
-  background-color: white;
-  border-radius: 6px;
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  display: inline-block;
-} */
+  height: 50vh;
+}
 
 /* .home-name{
   line-height: 18px;
@@ -22,7 +23,3 @@
   font-size: 13px;
   color: #777;
 } */
-
-.home-pic img{
-  width: 30%;
-}
