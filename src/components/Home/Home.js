@@ -19,6 +19,7 @@ const Home = () => {
 			<figure className='home-pic'>
 				<img src= {pic} alt="nice picture"/>
 			</figure> */}
+		
 		</div>
 	)
 }
