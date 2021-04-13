@@ -1,24 +1,27 @@
 import React from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GithubIcon from '@material-ui/icons/GitHub';
+import linkedinlogo from '../assets/images/linkedin.png'
+import githublogo from '../assets/images/github.png'
 
 const data = {
+
 	name: "Joshua Kim",
 	title: "Full Stack Software Engineer",
 	email: "jykim92@gmail.com",
 
 	socials: {
 		linkedin: {
-			link: 'https://github.com/joshtkim',
+			link: 'https://www.linkedin.com/in/joshua-kim29/',
 			text: 'My LinkedIn:',
-			icon: <LinkedInIcon />,
+			icon: linkedinlogo,
 		},
 		github: {
-			link: 'https://www.linkedin.com/in/joshua-kim29/',
+			link: 'https://github.com/joshtkim',
 			text: 'My Github:',
-			icon: <GithubIcon />,
+			icon: githublogo,
 		},
 	},
 };
+
+
 
 export default data;

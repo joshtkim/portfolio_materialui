@@ -16,7 +16,6 @@ function PortNav () {
 							<Nav.Link href="#projects">Projects</Nav.Link>
 							<Nav.Link href="#about-me">About Me</Nav.Link>
 							<Nav.Link href="#contact">Contact</Nav.Link>
-							<Nav.Link href="#resume">Resume</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>

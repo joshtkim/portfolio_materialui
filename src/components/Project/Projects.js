@@ -20,12 +20,16 @@ const Projects = () => {
 						url={x.link}
 					/>
 					<div className="repos">
+						<div className="front-repo">
 							<a href={x.frontend}>
 								<h3>Frontend Repo</h3>
 							</a>
+						</div>
+						<div className="back-repo">
 							<a href={x.backend}>
 								<h3>Backend Repo</h3>
 							</a>
+						</div>
 					</div>
 				</div>
 			))}
